@@ -8,8 +8,9 @@ http://localhost:8080/ws/dataset.wsdl
 ```
 
 ## Validation
-You can also call Spring application server endpoing for servicing dataset requests. Under src/test/resources directory path, you will find two files which you can use to test the create dataset endpoint which we've exposed. You can either use a third party tool such as SOAPUI or simply open the terminal and run the below commands. Note that the below syntax is in Linux; sorry Windows user's. 
+You can also call Spring application server endpoing for servicing dataset requests. Under src/test/resources directory path, you will find two files which you can use to test the create dataset endpoint which we've exposed. You can either use a third party tool such as SOAPUI or simply open the terminal and run the below commands. Note that the below syntax is for Linux systems; sorry Windows user's. 
 ```:
+cd src/test/resources/
 curl --header "content-type: text/xml" -d @datasetSuccessPayload.xml http://localhost:8080/ws
 curl --header "content-type: text/xml" -d @datasetFailurePayload.xml http://localhost:8080/ws
 ```
