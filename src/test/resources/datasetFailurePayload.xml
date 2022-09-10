@@ -1,0 +1,10 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:dataset="http://www.yuelchen.com/soap/dataset">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <dataset:DatasetRequest>
+         <dataset:datasetName>DSET0001</dataset:datasetName>
+	 <dataset:datasetDescription></dataset:datasetDescription>
+	 <dataset:datasetFieldsCount>0</dataset:datasetFieldsCount>
+      </dataset:DatasetRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

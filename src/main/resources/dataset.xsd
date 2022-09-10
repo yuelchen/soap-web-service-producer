@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+        targetNamespace="http://www.yuelchen.com/soap/dataset"
+        xmlns:tns="http://www.yuelchen.com/soap/dataset"
+        elementFormDefault="qualified">
+
+    <xsd:element name="DatasetRequest">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="datasetName" type="xsd:string"/>
+                <xsd:element name="datasetDescription" type="xsd:string"/>
+                <xsd:element name="datasetFieldsCount" type="xsd:int"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+
+    <xsd:element name="DatasetResponse">
+        <xsd:complexType>
+            <xsd:sequence>
+                <xsd:element name="isCreated" type="xsd:boolean"/>
+                <xsd:element name="datasetName" type="xsd:string"/>
+                <xsd:element name="creationDate" type="xsd:date" minOccurs="0" maxOccurs="1"/>
+                <xsd:element name="creationIssue" type="xsd:string" maxOccurs="unbounded"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+</schema>
