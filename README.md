@@ -1,4 +1,4 @@
-# soap-web-service-producer
+# soap-webservice-producer
 A Spring Web Service application for producing SOAP API. 
 
 ## Overview
