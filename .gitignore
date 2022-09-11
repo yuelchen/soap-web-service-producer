@@ -1,6 +1,14 @@
 # Ignore MacBook generated hidden file
 .DS_Store
 
+# Ignore IntelliJ folder and files
+.idea
+.idea/*
+
+# Ignore build target folder
+target
+target/*
+
 # Compiled class file
 *.class
 
