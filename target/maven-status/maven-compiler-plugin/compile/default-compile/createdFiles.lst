@@ -1,8 +1,0 @@
-com/yuelchen/soap/config/SoapWebServiceConfig.class
-com/yuelchen/soap/dataset/DatasetRequest.class
-com/yuelchen/soap/endpoint/DatasetEndpoint.class
-com/yuelchen/soap/dataset/ObjectFactory.class
-com/yuelchen/soap/dataset/DatasetResponse.class
-com/yuelchen/soap/SoapProducerApplication.class
-com/yuelchen/soap/dataset/package-info.class
-com/yuelchen/soap/service/DatasetService.class
