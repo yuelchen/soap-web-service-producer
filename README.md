@@ -2,7 +2,7 @@
 A Spring Web Service application for producing SOAP API. 
 
 ## Overview
-This is a SOAP Web Service producer which will generate a WSDL file for a consumer to use. As a consumer, you can access and download the WSDL file for generating java classes for making SOAP API calls. The below is a the URL when running Spring application locally. 
+This is a SOAP Web Service producer which will generate a WSDL file for a consumer to use. As a consumer, you can access and download the WSDL file for generating java classes for making SOAP API calls. The below is the dataset.wsdl url for this Springboot project. 
 ```:
 http://localhost:8080/ws/dataset.wsdl
 ```
