@@ -37,7 +37,7 @@ public class DatasetService {
     }
 
     private void validateDatasetRequestName(String datasetName, List<String> datasetIssue) {
-        if(datasetName.length() <= 12) {
+        if(datasetName.length() < 12) {
             datasetIssue.add("Dataset name must be at least 12 characters.");
         }
     }
